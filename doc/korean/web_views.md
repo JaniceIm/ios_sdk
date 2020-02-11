@@ -102,7 +102,7 @@ Pod 리포지토리를 통해 Adjust SDK를 추가 한 경우 앱의 소스 파�
 Adjust SDK를 정적/동적 프레임 워크 또는 Carthage를 통해 추가 한 경우 앱의 소스 파일에 다음 import 문구를 사용해야합니다.
 
 ```objc
-#<AdjustSdkWebBridge/AdjustBridge.h>가져오기
+#import <AdjustSdkWebBridge/AdjustBridge.h>
 ```
 
 다음으로는 기본 세션 추적을 설정하겠습니다.
