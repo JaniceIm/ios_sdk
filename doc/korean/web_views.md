@@ -8,11 +8,11 @@
 
 * [앱 예시](#example-apps)
 * [기본 연동](#basic-integration)
-   * [웹 브리지가있는 SDK를 프로젝트에 추가] (# sdk-add)
+   * [웹 브리지가있는 SDK를 프로젝트에 추가] (#sdk-add)
    * [iOS 프레임워크 추가](#sdk-frameworks)
    * [앱에 SDK 연동](#sdk-integrate)
-   * [AdjustBridge를 앱에 연동] (# bridge-integrate-app)
-   * [AdjustBridge를 웹뷰에 연동] (# bridge-integrate-web)
+   * [AdjustBridge를 앱에 연동] (#bridge-integrate-app)
+   * [AdjustBridge를 웹뷰에 연동] (#bridge-integrate-web)
    * [기본 설정](#basic-setup)
    * [Adjust 로](#adjust-logging)
    * [앱 빌드하기](#build-the-app)
@@ -32,7 +32,7 @@
    * [오프라인 모드](#offline-mode)
    * [이벤트 버퍼링](#event-buffering)
    * [GDPR 잊혀질 권리(Right to be Forgotten)](#gdpr-forget-me)
-   * [타사 공유 비활성화] (# disable-third-party-sharing)
+   * [타사 공유 비활성화] (#disable-third-party-sharing)
    * [SDK 서명](#sdk-signature)
    * [백그라운드 추적](#background-tracking)
    * [기기 ID](#device-ids)
@@ -156,7 +156,7 @@ function setupWebViewJavascriptBridge(callback) {
 }
 ```
 
-`WebViewJavascriptBridge`의 변경으로 인해`WVJBIframe.src = 'https : // __ bridge_loaded__';`행이 버전 4.11.6에서`WVJBIframe.src = 'wvjbscheme : // __ BRIDGE_LOADED__';`에서 변경되었습니다. 플러그인.
+`WebViewJavascriptBridge` 플러그인 변경으로 인해`WVJBIframe.src = 'https : // __ bridge_loaded__';`행이 버전 4.11.6에서`WVJBIframe.src = 'wvjbscheme : // __ BRIDGE_LOADED__';`에서 변경되었습니다.
 
 ### <a id="basic-setup"></a>기본 설정
 
